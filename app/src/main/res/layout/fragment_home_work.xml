@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeWorkFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:background="@drawable/bg_for_tv"
+        android:textColor="@color/red"
+       />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_plus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/_1"
+        android:textSize="20sp"
+        app:backgroundTint="@color/orange"
+        app:cornerRadius="100dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="30dp"
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_minus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/minus_one"
+        android:textSize="20sp"
+        app:backgroundTint="@color/green"
+        app:cornerRadius="100dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+
+        />
+
+
+
+
+
+
+
+</LinearLayout>
